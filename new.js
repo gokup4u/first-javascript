@@ -1,25 +1,3 @@
-/*let seun = 'Hello World';
-console.log(seun);
-//alert(seun);
-let array = "";
-let i;
-for (let i = 0; i < 6; i++) {
-  array += `orange ${i} is rotten \n `;
-  }
-console.log(array);
-
-const val1 = 32;
-let newVal = val1 * 4 + 58;
-function topMath(){
-  let finalAnswer = newVal/val1;
-  if (finalAnswer !== 6) {
-    return finalAnswer;
-  } else {
-    return false;
-  } 
-}
-console.log(topMath());
-document.createElement('h2');*/
 
 function nairaToPounds() {
   let naira = prompt('How much do you want to change, chap?')
