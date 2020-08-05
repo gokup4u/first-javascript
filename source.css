@@ -1,0 +1,28 @@
+
+#practice-container {
+  width: 75%;
+  border: 1px solid black;
+}
+.first-container {
+  border: 1px solid black;text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+#flex-box {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+#flex-box div {
+  display: flex;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10%;
+}
+#final-result {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  word-wrap: break-word;
+}
