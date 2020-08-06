@@ -1,4 +1,4 @@
-
+//Naira to Pound
 function nairaToPounds() {
   let naira = prompt('How much do you want to change, chap?')
   let pounds = naira / 450;
@@ -11,4 +11,12 @@ function nairaToPounds() {
 }
 function reset() {
   document.getElementById('my-pound').remove();
+}
+
+//Image Generator
+function genImage() {
+  let image = document.createElement('img');
+  let div = document.getElementById('image-generated');
+  image.src = 'https://picsum.photos/200/180';
+  div.appendChild(image);
 }
